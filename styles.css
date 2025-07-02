@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #004aad;
+  color: white;
+  padding: 1em 2em;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5em;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1601233741783-2cc46fa02d19') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 5em 1em;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.75em 1.5em;
+  background: #f5b301;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.about {
+  padding: 2em;
+  text-align: center;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+}
