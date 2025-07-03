@@ -111,3 +111,37 @@ footer {
   </footer>
 </body>
 </html>
+
+.recruiting-info {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.info-section {
+  margin-bottom: 3em;
+}
+
+.info-section h2 {
+  color: #004aad;
+  margin-bottom: 0.5em;
+}
+
+.email-template {
+  background: #f4f4f4;
+  padding: 1em;
+  border-left: 4px solid #004aad;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 0.95em;
+}
+
+.btn {
+  display: inline-block;
+  background: #f5b301;
+  color: #000;
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
